@@ -1,0 +1,6 @@
+framework module Pods_LoadProject {
+  umbrella header "Pods-LoadProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
