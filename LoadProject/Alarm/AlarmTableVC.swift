@@ -9,9 +9,10 @@
 import UIKit
 import UserNotifications
 import UserNotificationsUI
+import GoogleMaps
 
 
-class AlarmTableVC: UITableViewController {
+class AlarmTableVC: UITableViewController, CLLocationManagerDelegate{
     let center = UNUserNotificationCenter.current()
     
     @IBOutlet var alarmTable: UITableView!
@@ -30,9 +31,11 @@ class AlarmTableVC: UITableViewController {
     var endNameList = UserDefaults.standard.array(forKey: "endNameList") as? [String] ?? [String]()
     var alarmTimeList = UserDefaults.standard.array(forKey: "alarmTimeList") as? [String] ?? [String]()
     
+    var locationManager = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        locationManager.requestWhenInUseAuthorization()
         
 //        UNUserNotificationCenter.current().delegate = self // 앱이 실행된 상태에서도 출현
         UserDefaults.standard.removeObject(forKey: "nameLabel")

@@ -26,6 +26,9 @@ class RoutesKindTableVC: UIViewController, UITableViewDataSource, UITableViewDel
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        choiceRoute.layer.masksToBounds = true
+        choiceRoute.layer.cornerRadius = 5
+        
         routeKindTable.delegate = self
         routeKindTable.dataSource = self
         print(routeStationData)
