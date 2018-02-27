@@ -31,14 +31,14 @@ class RoutesKindTableVC: UIViewController, UITableViewDataSource, UITableViewDel
         
         routeKindTable.delegate = self
         routeKindTable.dataSource = self
-        print(routeStationData)
-        print(routeStationTimeData)
+//        print(routeStationData)
+//        print(routeStationTimeData)
         // Do any additional setup after loading the view.
         for route in routeTimeData{
             sections.append(Section(routeTime: "경로 #\(i+1)       \(route) 소요", station: routeStationData[i] as! [String], stationTime: routeStationTimeData[i] as! [String], expanded:false))
             i = i+1
         }
-        print("-----------------\(sections)")
+//        print("-----------------\(sections)")
         self.routeKindTable.separatorColor = UIColor.clear
         
     }

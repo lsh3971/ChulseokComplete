@@ -133,9 +133,9 @@ class DateSaveVC: UIViewController, UITableViewDelegate, UITableViewDataSource, 
         let sinceTime = Int(date1.timeIntervalSince1970)
         
         
-        print("현재 요일은 \(weekday)")
-        print("\(hour)시 \(minute)분 도착")
-        print(second)
+//        print("현재 요일은 \(weekday)")
+//        print("\(hour)시 \(minute)분 도착")
+//        print(second)
 //        print(sinceTime)
         UserDefaults.standard.set(weekday, forKey: "weekday")
         UserDefaults.standard.set(sinceTime, forKey: "sinceTime")
@@ -150,7 +150,7 @@ class DateSaveVC: UIViewController, UITableViewDelegate, UITableViewDataSource, 
         optionTable.dataSource = self
         optionTable.delegate = self
         self.nameLabel.delegate = self
-        print(nuckNuck)
+//        print(nuckNuck)
         alarmPicker.backgroundColor = .white
         alarmPicker.setValue(UIColor.black, forKey:"textColor")
         

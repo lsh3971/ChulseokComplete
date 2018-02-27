@@ -459,7 +459,7 @@ class NaviCenter: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegat
     
     func drawPath(startLocation: CLLocation, endLocation: CLLocation)
     {
-        print("가즈아아아아")
+//        print("가즈아아아아")
         pointKind.removeAll()
         UserDefaults.standard.removeObject(forKey: "routeTime")
         UserDefaults.standard.removeObject(forKey: "routeStation")
@@ -519,7 +519,7 @@ class NaviCenter: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegat
                         UserDefaults.standard.removeObject(forKey: "routeTime")
                         
                     } else{
-                        print("여기를 잘봐라\(UserDefaults.standard.integer(forKey: "polylineNumber"))")
+//                        print("여기를 잘봐라\(UserDefaults.standard.integer(forKey: "polylineNumber"))")
                         if var routeOverviewPolyline = routes[UserDefaults.standard.integer(forKey: "polylineNumber")]["overview_polyline"].dictionary{
                             var i = 0
                             
@@ -677,7 +677,7 @@ class NaviCenter: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegat
                 
                 var departureTime = Int()
                 
-                print("넋넋 \(nuckNuck)")
+//                print("넋넋 \(nuckNuck)")
                 
                 switch nuckNuck {
                 case 1:
@@ -709,7 +709,7 @@ class NaviCenter: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegat
                 
                 let vc = segue.destination as? AlarmTableVC
                 vc?.identifier = moveName
-                print("여기서의 이름은 \(moveName)")
+//                print("여기서의 이름은 \(moveName)")
                 
                 var arrivalTime = String()
                 
@@ -897,7 +897,6 @@ class NaviCenter: UIViewController, GMSMapViewDelegate, CLLocationManagerDelegat
     
     
     @IBAction func unwindToReservationList(segue: UIStoryboardSegue){
-        print("요기로 복귀")
     }
 
 

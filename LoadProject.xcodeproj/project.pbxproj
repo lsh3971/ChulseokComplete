@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		26189B66203A8DBA00B44039 /* AlarmDateCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26189B65203A8DBA00B44039 /* AlarmDateCenter.swift */; };
 		26189B6A203C0C7800B44039 /* AlarmTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26189B69203C0C7800B44039 /* AlarmTableVC.swift */; };
-		26189B6C203C74DD00B44039 /* NameAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26189B6B203C74DD00B44039 /* NameAddVC.swift */; };
 		263EAD1A20117594008C1E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263EAD1920117594008C1E52 /* AppDelegate.swift */; };
 		263EAD1C20117594008C1E52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263EAD1B20117594008C1E52 /* ViewController.swift */; };
 		263EAD2120117594008C1E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263EAD2020117594008C1E52 /* Assets.xcassets */; };
@@ -53,7 +52,6 @@
 		0499B34892C5342DBBB55549 /* Pods-LoadProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoadProject/Pods-LoadProject.release.xcconfig"; sourceTree = "<group>"; };
 		26189B65203A8DBA00B44039 /* AlarmDateCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDateCenter.swift; sourceTree = "<group>"; };
 		26189B69203C0C7800B44039 /* AlarmTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableVC.swift; sourceTree = "<group>"; };
-		26189B6B203C74DD00B44039 /* NameAddVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAddVC.swift; sourceTree = "<group>"; };
 		263EAD1620117594008C1E52 /* LoadProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		263EAD1920117594008C1E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		263EAD1B20117594008C1E52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,7 +147,6 @@
 				26189B65203A8DBA00B44039 /* AlarmDateCenter.swift */,
 				26189B69203C0C7800B44039 /* AlarmTableVC.swift */,
 				26C5D098203A67BB005EC2D4 /* DateSaveVC.swift */,
-				26189B6B203C74DD00B44039 /* NameAddVC.swift */,
 			);
 			path = Alarm;
 			sourceTree = "<group>";
@@ -379,7 +376,6 @@
 				269FE471202D968A005CADF1 /* ExpandableHeaderView.swift in Sources */,
 				269B42D120281FBD008A6DD0 /* TransitSideVC.swift in Sources */,
 				26C5D099203A67BB005EC2D4 /* DateSaveVC.swift in Sources */,
-				26189B6C203C74DD00B44039 /* NameAddVC.swift in Sources */,
 				26189B66203A8DBA00B44039 /* AlarmDateCenter.swift in Sources */,
 				269FE46D202D792A005CADF1 /* RoutesKindTableVC.swift in Sources */,
 				26189B6A203C0C7800B44039 /* AlarmTableVC.swift in Sources */,

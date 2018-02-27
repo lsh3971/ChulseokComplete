@@ -43,7 +43,7 @@ class AlarmTableVC: UITableViewController, CLLocationManagerDelegate{
         UserDefaults.standard.removeObject(forKey: "TransitMode")
         UserDefaults.standard.removeObject(forKey: "sinceTime")
         
-        print("여기 \(identifier)")
+//        print("여기 \(identifier)")
         UserDefaults.standard.removeObject(forKey: "routeTimeValue")
         
         tableView.allowsSelectionDuringEditing = true
@@ -240,7 +240,7 @@ class AlarmTableVC: UITableViewController, CLLocationManagerDelegate{
         
         let departureHour = alarmTimeSecond / 3600
         let departureMinute = alarmTimeSecond % 3600 / 60
-        print("요게 진짜 \(departureHour)시 \(departureMinute)분 출발")
+//        print("요게 진짜 \(departureHour)시 \(departureMinute)분 출발")
         
         center.requestAuthorization(options: options) { // 승인 요청
             (granted, error) in
