@@ -196,6 +196,10 @@ class DateSaveVC: UIViewController, UITableViewDelegate, UITableViewDataSource, 
     @IBAction func dateSaveVC(segue: UIStoryboardSegue){
         print("dateSaveVC")
     }
+    
+    func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.portrait
+    }
     /*
     // MARK: - Navigation
 

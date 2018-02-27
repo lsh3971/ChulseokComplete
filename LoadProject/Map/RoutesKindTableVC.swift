@@ -138,5 +138,9 @@ class RoutesKindTableVC: UIViewController, UITableViewDataSource, UITableViewDel
         }
     }
     
+    func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.portrait
+    }
+    
     
 }

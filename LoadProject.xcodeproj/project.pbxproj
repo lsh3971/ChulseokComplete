@@ -36,7 +36,6 @@
 		2683E5CC203D543D002FB5A0 /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2683E5C2203D543C002FB5A0 /* bell.mp3 */; };
 		2690F874203F471500CE826D /* StartIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2690F873203F471400CE826D /* StartIcon2.png */; };
 		2690F876203F471E00CE826D /* DestinationIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2690F875203F471E00CE826D /* DestinationIcon2.png */; };
-		269B42D120281FBD008A6DD0 /* TransitSideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B42D020281FBD008A6DD0 /* TransitSideVC.swift */; };
 		269FE46D202D792A005CADF1 /* RoutesKindTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FE46C202D792A005CADF1 /* RoutesKindTableVC.swift */; };
 		269FE46F202D9570005CADF1 /* RouteDataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FE46E202D9570005CADF1 /* RouteDataCenter.swift */; };
 		269FE471202D968A005CADF1 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269FE470202D968A005CADF1 /* ExpandableHeaderView.swift */; };
@@ -81,7 +80,6 @@
 		2683E5C2203D543C002FB5A0 /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = "<group>"; };
 		2690F873203F471400CE826D /* StartIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartIcon2.png; sourceTree = "<group>"; };
 		2690F875203F471E00CE826D /* DestinationIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DestinationIcon2.png; sourceTree = "<group>"; };
-		269B42D020281FBD008A6DD0 /* TransitSideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitSideVC.swift; sourceTree = "<group>"; };
 		269FE46C202D792A005CADF1 /* RoutesKindTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesKindTableVC.swift; sourceTree = "<group>"; };
 		269FE46E202D9570005CADF1 /* RouteDataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDataCenter.swift; sourceTree = "<group>"; };
 		269FE470202D968A005CADF1 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
@@ -189,7 +187,6 @@
 				269FE46C202D792A005CADF1 /* RoutesKindTableVC.swift */,
 				269FE470202D968A005CADF1 /* ExpandableHeaderView.swift */,
 				269FE46E202D9570005CADF1 /* RouteDataCenter.swift */,
-				269B42D020281FBD008A6DD0 /* TransitSideVC.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -374,7 +371,6 @@
 			files = (
 				263EAD1C20117594008C1E52 /* ViewController.swift in Sources */,
 				269FE471202D968A005CADF1 /* ExpandableHeaderView.swift in Sources */,
-				269B42D120281FBD008A6DD0 /* TransitSideVC.swift in Sources */,
 				26C5D099203A67BB005EC2D4 /* DateSaveVC.swift in Sources */,
 				26189B66203A8DBA00B44039 /* AlarmDateCenter.swift in Sources */,
 				269FE46D202D792A005CADF1 /* RoutesKindTableVC.swift in Sources */,

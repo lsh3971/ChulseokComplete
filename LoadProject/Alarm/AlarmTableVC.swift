@@ -297,6 +297,10 @@ class AlarmTableVC: UITableViewController, CLLocationManagerDelegate{
         isEditing = false
     }
     
+    func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.portrait
+    }
+    
     
 }
 
