@@ -142,5 +142,17 @@ class RoutesKindTableVC: UIViewController, UITableViewDataSource, UITableViewDel
         return UIInterfaceOrientationMask.portrait
     }
     
+
+    var egg = 0
+    @IBAction func easterEgg(_ sender: UIButton) {
+        egg = egg + 1
+        if egg == 10{
+            let alertController = UIAlertController(title: "제작자",message: "승삼이는 배고프다", preferredStyle: UIAlertControllerStyle.alert)
+            let cancelButton = UIAlertAction(title: "배고파", style: UIAlertActionStyle.cancel, handler: nil)
+            alertController.addAction(cancelButton)
+            self.present(alertController,animated: true,completion: nil)
+            egg = 0
+        }
+    }
     
 }
